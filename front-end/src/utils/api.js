@@ -1,8 +1,8 @@
 import formatReservationDate from "./format-reservation-date";
 import formatReservationTime from "./format-reservation-time"; // Corrected import
 
-
-  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+const API_BASE_URL =
+  process.env.REACT_APP_API_BASE_URL || "https://fast-food-order-12.onrender.com";
 
 /**
  * Defines the default headers for these functions to work with `json-server`
